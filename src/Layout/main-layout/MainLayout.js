@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Divider } from '@mui/material';
 
 import NavigationBar from './NavigationBar'
@@ -12,7 +13,9 @@ const MainLayout = ({ children } ) => {
 <NavigationBar/>
 
       
-        <div className="true">{children}</div>
+        <div className="true">{children}
+        <Analytics />
+        </div>
 <Divider/>
 
         <Footer2/>
