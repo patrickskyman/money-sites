@@ -57,7 +57,7 @@ function Information() {
     <DefaultReviewCard
               name="Pat Fredrick"
               date="1 day ago"
-              review="This is an excellent product, the documentation is excellent and helped me get things done more efficiently."
+              review="Moneysites has been instrumental in transforming our business operations through their exceptional enterprise software solutions. Their team demonstrated a deep understanding of our industry, and the software they developed streamlined our processes, resulting in increased efficiency and cost savings. The level of professionalism, technical expertise, and commitment to delivering high-quality solutions make Moneysites a reliable and valued partner."
               rating={5}
             />
   </Card>
@@ -67,7 +67,7 @@ function Information() {
   <DefaultReviewCard
               name="Michael Jonathan"
               date="1 day ago"
-              review="This is an excellent product, the documentation is excellent and helped me get things done more efficiently."
+              review="Working with Moneysites on our enterprise software project was a positive experience overall. They showcased a high level of technical proficiency and delivered a solution that met our specifications. The project management was effective, and they were responsive to our evolving needs. While there were occasional delays, the final software product exceeded our expectations. Moneysites proved to be a reliable partner for complex software development projects."
               rating={5}
             />
   </Card>
@@ -77,7 +77,7 @@ function Information() {
   <DefaultReviewCard
               name="Anna"
               date="1 day ago"
-              review="This is an excellent product, the documentation is excellent and helped me get things done more efficiently."
+              review="Moneysites has been a crucial collaborator in our journey towards digital transformation. Their enterprise software development team demonstrated a keen understanding of our business goals and challenges. The solutions they provided not only met but exceeded our expectations. The team's proactive communication, attention to detail, and commitment to delivering on time make Moneysites a valuable partner for any organization looking to elevate their digital capabilities"
               rating={5}
             />
   </Card>

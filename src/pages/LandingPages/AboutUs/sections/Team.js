@@ -3,7 +3,7 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-
+import Card from "@mui/material/Card"
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -13,11 +13,27 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
 // Material Kit 2 React examples
-
+//
+//<Card>
+//<div>
+ //<iframe
+ //  title="Patrick M."
+   //width="450"
+  // height="315"
+  // src={videoUrl}
+  // frameBorder="0"
+ //  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  // allowFullScreen
+// ></iframe>
+//</div>
+//</Card>
+//
 
 import Promotional from "../../../../../src/view/Homepage/Promotional"
 function Team() {
   const image = "https://i.ibb.co/FVckyHp/patrickrefined-removebg-preview.png"
+  const videoUrl = "https://www.youtube.com/embed/QM2wkTnXUew";
+
  
   return (
     <MKBox
@@ -66,7 +82,6 @@ function Team() {
       
       <MKBox position="relative" borderRadius="lg" mx={2} mt={-3}>
 
-     
             <CenteredBlogCard
               image="https://i.ibb.co/FVckyHp/patrickrefined-removebg-preview.png"
               title="Patrick M."
