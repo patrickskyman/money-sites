@@ -4,7 +4,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card"
-import FacebookIcon from "@mui/icons-material/Facebook";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -54,30 +54,36 @@ function Team() {
 
          <div className="container">
         <Grid container spacing={10}>
-          <Grid item xs={12} sm={6}>
-
-            <Promotional pageHeaderBgImg="" pageHeaderMinVh="20vh" />
-
-        
-            <Typography variant="body2" color="green" opacity={0.8}>
-              Connect with me
-            </Typography>
-            <Grid container spacing={3} sx={{ mb: 12 }}>
-            <Grid item xs={3} md={4} lg={2}>
-           <FacebookIcon />
-          </Grid>
-          <Grid item xs={3} md={4} lg={2}>
-            <TwitterIcon />
-          </Grid>
-          <Grid item xs={3} md={4} lg={2}>
-            <GitHubIcon />
-          </Grid>
-          <Grid item xs={3} md={4} lg={2}>
-            <YouTubeIcon />
-          </Grid>
-          </Grid>
+        <Grid item xs={12} sm={6}>
+      <Promotional pageHeaderBgImg="" pageHeaderMinVh="20vh" />
       
-          </Grid>
+      <Typography variant="body2" color="green" opacity={0.8}>
+        Connect with me
+      </Typography>
+
+      <Grid container spacing={3} sx={{ mb: 12 }}>
+        <Grid item xs={3} md={4} lg={2}>
+          <a href="https://www.linkedin.com/in/patrick-muthii-124a20194/" target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon />
+          </a>
+        </Grid>
+        <Grid item xs={3} md={4} lg={2}>
+          <a href="https://twitter.com/Patrickskyman" target="_blank" rel="noopener noreferrer">
+            <TwitterIcon />
+          </a>
+        </Grid>
+        <Grid item xs={3} md={4} lg={2}>
+          <a href="https://github.com/Ochie123" target="_blank" rel="noopener noreferrer">
+            <GitHubIcon />
+          </a>
+        </Grid>
+        <Grid item xs={3} md={4} lg={2}>
+          <a href="https://www.youtube.com/channel/UC49Eo7T5Cf7bdQJ4uHPX6Xg" target="_blank" rel="noopener noreferrer">
+            <YouTubeIcon />
+          </a>
+        </Grid>
+      </Grid>
+    </Grid>
           <Grid item xs={12} sm={6}>
       
       <MKBox position="relative" borderRadius="lg" mx={2} mt={-3}>

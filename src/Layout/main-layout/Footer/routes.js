@@ -9,45 +9,45 @@ const router = {
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/Moneysites/",
+      link: "https://www.facebook.com/Moneysite/",
     },
     {
       icon: <TwitterIcon />,
-      link: "https://twitter.com/moneysites",
+      link: "https://twitter.com/moneysite",
     },
     {
       icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/moneysites",
+      link: "https://www.youtube.com/moneysite",
     },
   ],
   menus: [
     {
       name: "company",
       items: [
-        { name: "about us", href: "https://moneysites.net/about-us" },
-        { name: "freebies", href: "https://moneysites.net/freebies" },
-        { name: "blog", href: "https://moneysites.net/blog" },
+        { name: "about us", href: "https://moneysite.com/about-us" },
+        { name: "freebies", href: "https://moneysite.com/freebies" },
+        { name: "blog", href: "https://moneysite.com/blog" },
       ],
     },
     {
       name: "resources",
       items: [
-        { name: "affiliate program", href: "https://moneysites.net/affiliate-program"},
-        { name: "Our Works", href: "https://moneysites.net/"},
+        { name: "affiliate program", href: "https://moneysite.com/affiliate-program"},
+        { name: "Our Works", href: "https://moneysite.com/"},
       ],
     },
     {
       name: "help & support",
       items: [
-        { name: "contact us", href: "https://moneysites.net/contact-us"},
-        { name: "knowledge center",href: "https://moneysites.net/knowledge-center" },
+        { name: "contact us", href: "https://moneysite.com/contact-us"},
+        { name: "knowledge center",href: "https://moneysite.com/knowledge-center" },
       ],
     },
     {
       name: "legal",
       items: [
-        { name: "terms & conditions", href: "https://moneysites.net/terms-conditions"},
-        { name: "privacy policy", href: "https://moneysites.net/privacy-policy" },
+        { name: "terms & conditions", href: "https://moneysite.com/terms-conditions"},
+        { name: "privacy policy", href: "https://moneysite.com/privacy-policy" },
       ],
     },
   ],
