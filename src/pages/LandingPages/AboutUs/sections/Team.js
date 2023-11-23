@@ -89,7 +89,7 @@ function Team() {
       <MKBox position="relative" borderRadius="lg" mx={2} mt={-3}>
 
             <CenteredBlogCard
-              image="https://i.ibb.co/FVckyHp/patrickrefined-removebg-preview.png"
+              image="https://i.ibb.co/XYMQd6L/Whats-App-Image-2023-11-19-at-13-28-17-removebg-preview.png" alt="Whats-App-Image-2023-11-19-at-13-28-17-removebg-preview"
               title="Patrick M."
               description="''On the other hand, we cannot ignore efficiency.'' "
               component="img"
