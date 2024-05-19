@@ -9,15 +9,15 @@ const router = {
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/Moneysite/",
+      link: "https://www.facebook.com/patrick.pope.pp/",
     },
     {
       icon: <TwitterIcon />,
-      link: "https://twitter.com/moneysite",
+      link: "https://twitter.com/Patrickskyman",
     },
     {
       icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/moneysite",
+      link: "https://www.youtube.com/@patpython",
     },
   ],
   menus: [
